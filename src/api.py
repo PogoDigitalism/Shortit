@@ -15,7 +15,6 @@ class mainAPI():
     def __init__(self):
         self.version = "0.0.1"
 
-        url = "https://stackoverflow.com/q/65446591/5538913"
         self.app = FastAPI()
         self.serving_task: Optional[asyncio.Task] = None
 
